@@ -25,10 +25,6 @@ public class Cell {
         content = Seed.NO_SEED;
     }
 
-    /** Reset this cell's content to EMPTY, ready for new game */
-    public void newGame() {
-        content = Seed.NO_SEED;
-    }
 
     /** Paint itself on the graphics canvas, given the Graphics context */
     public void paint(Graphics g) {
